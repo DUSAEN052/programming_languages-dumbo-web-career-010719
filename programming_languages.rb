@@ -6,7 +6,7 @@ def reformat_languages(languages)
     value.each do |k, v|
       output[k] = {
         :type => v[:type],
-        :style => << [key]
+        :style => output[k][:style] << [key]
       }
     end
   end
