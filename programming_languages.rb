@@ -4,7 +4,7 @@ def reformat_languages(languages)
   
   languages.each do |key, value|
     value.each do |k, v|
-      if output.key?(:style)
+      if output.key?(k)
         output[k][:style] << [key]
       else
         output[k] = {
