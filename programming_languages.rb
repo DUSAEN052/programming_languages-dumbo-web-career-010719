@@ -10,6 +10,6 @@ def reformat_languages(languages)
       }
     end
   end
-  
+  puts output
   output
 end
