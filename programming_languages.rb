@@ -8,5 +8,8 @@ def reformat_languages(languages)
         :type => v,
         :style => [key]
       }
+    end
+  end
+  
   puts output
 end
